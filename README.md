@@ -1,4 +1,4 @@
-# 🩸 Swasth-IQ: Intelligent Medical Biomarker Intelligence & Diagnostic Suite
+﻿# 🩸 Swasth-IQ: Intelligent Medical Biomarker Intelligence & Diagnostic Suite
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![React 18](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
@@ -20,7 +20,7 @@ The platform utilizes a **hybrid dual-engine optical pipeline** capable of parsi
 
 ## 🏛️ System Architecture
 
-`
+```
      ┌─────────────────────────────────────────────────────────────────────────┐
      │                      Multi-Modal Report Ingestion                       │
      │      [ Native Digital PDF Document ]   [ Degraded Physical Photo Scan ] │
@@ -62,7 +62,7 @@ The platform utilizes a **hybrid dual-engine optical pipeline** capable of parsi
      │                     Swasth-IQ Responsive Dashboard                      │
      │         React 18 PWA · Interactive Organ Charts · Real-time Chat        │
      └─────────────────────────────────────────────────────────────────────────┘
-`
+```
 
 ---
 
@@ -114,7 +114,7 @@ Unlike opaque black-box AI estimations, Swasth-IQ calculates transparent, reprod
 
 ## 📂 Repository Layout
 
-`	ext
+```text
 Swasth-IQ/
 ├── backend/
 │   ├── generated_reports/       # Exported clinical PDF summaries
@@ -140,7 +140,7 @@ Swasth-IQ/
     │   └── utils/               # Formatters, helpers, and constants
     ├── package.json             # Frontend dependency manifest
     └── vite.config.js           # Vite build configuration
-`
+```
 
 ---
 
@@ -148,7 +148,7 @@ Swasth-IQ/
 
 ### 1. Backend Installation
 
-`ash
+```bash
 cd backend
 python -m venv venv
 
@@ -160,36 +160,36 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 cp .env.example .env
-`
+```
 
-*Update .env with your API credentials (optional for core rule engine features).*
+*Update `.env` with your API credentials (optional for core rule engine features).*
 
 Start the backend server:
-`ash
+```bash
 python run.py
-`
-*API documentation will be live at http://localhost:8000/docs.*
+```
+*API documentation will be live at `http://localhost:8000/docs`.*
 
 ---
 
 ### 2. Frontend Installation
 
-`ash
+```bash
 cd ../frontend
 npm install
 npm run dev
-`
-*Access the user interface at http://localhost:5173.*
+```
+*Access the user interface at `http://localhost:5173`.*
 
 ---
 
 ### 3. Running Test Suites
 
 Execute the comprehensive automated test suite (250 tests covering OCR, normalizer, organ scoring, and API routes):
-`ash
+```bash
 cd backend
 pytest -v
-`
+```
 
 ---
 
