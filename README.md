@@ -1,4 +1,4 @@
-﻿# 🩸 Swasth-IQ: Intelligent Medical Biomarker Intelligence & Diagnostic Suite
+﻿# 🩸 Swasth-IQ: Multi-Organ Medical Report Intelligence & Diagnostic Suite
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![React 18](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
@@ -12,7 +12,7 @@
 
 ## 📌 Executive Summary
 
-**Swasth-IQ** is a high-performance clinical diagnostic analytics and medical biomarker intelligence platform. Built to transform complex, multi-page laboratory test reports into actionable physiological insights, Swasth-IQ bridges the gap between raw medical data and clinical comprehension.
+**Swasth-IQ** is a high-performance clinical diagnostic analytics and multi-organ medical report intelligence platform. Built to transform complex, multi-page laboratory test reports into actionable physiological insights, Swasth-IQ bridges the gap between raw medical data and clinical comprehension.
 
 The platform utilizes a **hybrid dual-engine optical pipeline** capable of parsing both structured digital PDF records and degraded physical document photographs. Extracted laboratory metrics are validated against physiological reference ranges, aggregated into **deterministic 5-organ health scores**, and surfaced via an audited medical conversational copilot protected by strict clinical guardrails.
 
@@ -72,7 +72,7 @@ The platform utilizes a **hybrid dual-engine optical pipeline** capable of parsi
 - **Native Vector Parsing:** Extracts clean digital PDF text layers instantly with PyMuPDF (sub-150ms execution).
 - **Neural Optical OCR:** Ingests low-contrast mobile snapshots, skewed pages, and noisy lighting conditions with high fidelity.
 
-### 2. Comprehensive Panel Normalization (100+ Biomarkers)
+### 2. Comprehensive Panel Normalization (100+ Lab Parameters)
 Normalizes disparate naming conventions into 8 canonical clinical panels:
 - **Complete Blood Count (CBC):** Hemoglobin, RBC, WBC, Platelets, MCV, MCH, MCHC, Neutrophils, Lymphocytes.
 - **Lipid Profile:** Total Cholesterol, HDL, LDL, VLDL, Triglycerides, TC/HDL Ratio.
