@@ -1,0 +1,74 @@
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.env
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── SQLite databases ────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+sql_app.db
+
+# ── Logs ───────────────────────────────────────────────────────────────────
+*.log
+backend/app/logs/*.log
+
+# ── Uploads & OCR Storage (user files — never commit user data) ─────────────
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/ocr_results/*
+!backend/ocr_results/.gitkeep
+backend/src/uploads/*
+!backend/src/uploads/.gitkeep
+backend/src/ocr_results/*
+!backend/src/ocr_results/.gitkeep
+
+# ── Generated / Knowledge base ─────────────────────────────────────────────
+backend/generated_reports/*
+!backend/generated_reports/.gitkeep
+backend/knowledge_base/*
+!backend/knowledge_base/.gitkeep
+backend/src/generated_reports/*
+!backend/src/generated_reports/.gitkeep
+backend/src/knowledge_base/*
+!backend/src/knowledge_base/.gitkeep
+
+# ── Node / Frontend ─────────────────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+.npm
+
+# ── Environment files (keep .example, never the real one) ──────────────────
+.env
+.env.local
+.env.production
+backend/.env
+frontend/.env
+# but DO track example files:
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# ── IDE / OS ────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Misc generated files ────────────────────────────────────────────────────
+gemini-code-*.txt
+Gemini_Generated_Image_*.png
+*.txt.bak
